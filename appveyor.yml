@@ -27,16 +27,15 @@ on_success:
   # See http://www.appveyor.com/docs/how-to/git-push for more info
   - git config --global credential.helper store
   # EDIT your Git email and name
-  - echo $env:op_build_user_email
-  - echo $env:op_build_user
-  - git config --global user.email $env:op_build_user_email
-  - git config --global user.name $env:op_build_user
+  - git config --global user.email "ojikeii@gmail.com"
+  - git config --global user.name "ojikeii"
+  - git config -l
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
   - git checkout master
   - git rm -rf .
   - xcopy ..\output . /E
   # your domain name or remove if not using a custom domain
-  # - echo wyam.io > CNAME
+  - echo ojikeii.net > CNAME
   # EDIT the origin of your repository - have to reset it here because AppVeyor pulls from SSH, but GitHub won't accept SSH pushes
   - git remote set-url origin https://github.com/ojikeii/ojikeii.github.io.git
   - git add -A
