@@ -5,7 +5,7 @@ branches:
 environment:
   access_token:
     # The encrypted version of your GitHub access token
-    secure: 29c9f1f3ade04efd10ec0532941e99df8a2c345a
+    secure: pQ01erTn1cLVLYHPrIRHczenzxy7NysWWVaKjiqu+ZEhNb5DnyW3uVG6elBlAft1
 
 install:
   - git submodule update --init --recursive
