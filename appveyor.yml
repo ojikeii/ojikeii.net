@@ -26,17 +26,17 @@ on_success:
   # Switch branches to master, clean the folder, copy everything in from the Wyam output, and commit/push
   # See http://www.appveyor.com/docs/how-to/git-push for more info
   - git config --global credential.helper store
-  # EDIT your Git email and name
+  # your Git email and name
   - git config --global user.email "ojikeii@gmail.com"
   - git config --global user.name "ojikeii"
-  - git config -l
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
   - git checkout master
+  - xcopy README.md ..\output\
   - git rm -rf .
   - xcopy ..\output . /E
   # your domain name or remove if not using a custom domain
   - echo ojikeii.net > CNAME
-  # EDIT the origin of your repository - have to reset it here because AppVeyor pulls from SSH, but GitHub won't accept SSH pushes
+  # the origin of your repository - have to reset it here because AppVeyor pulls from SSH, but GitHub won't accept SSH pushes
   - git remote set-url origin https://github.com/ojikeii/ojikeii.github.io.git
   - git add -A
   - git commit -a -m "Commit from AppVeyor"
