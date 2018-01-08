@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<link rel="self" href="http://ojikeii.net/" />
 	<id>http://ojikeii.net/</id>
-	<title>My Blog</title>
+	<title>ojikeii's blog</title>
 	<rights>2018</rights>
-	<updated>2018-01-08T10:48:58Z</updated>
-	<subtitle>Welcome!</subtitle>
+	<updated>2018-01-08T14:05:24Z</updated>
+	<subtitle>ojikeii's blog</subtitle>
 	<entry>
-		<link href="http://ojikeii.net/posts/first-post" />
-		<id>http://ojikeii.net/posts/first-post</id>
-		<title>First Post</title>
-		<updated>2016-01-01T00:00:00Z</updated>
-		<content>&lt;p&gt;This is my first post!&lt;/p&gt;
+		<link href="http://ojikeii.net/posts/2018-01-08" />
+		<id>http://ojikeii.net/posts/2018-01-08</id>
+		<title>ブログ移行しました</title>
+		<updated>2018-01-08T00:00:00Z</updated>
+		<content>&lt;p&gt;&lt;a href="http://d.hatena.ne.jp/hagej_60527/"&gt;以前のブログ&lt;/a&gt;はそのまま残してあります。&lt;/p&gt;
 </content>
-		<summary>&lt;p&gt;This is my first post!&lt;/p&gt;</summary>
+		<summary>&lt;p&gt;&lt;a href="http://d.hatena.ne.jp/hagej_60527/"&gt;以前のブログ&lt;/a&gt;はそのまま残してあります。&lt;/p&gt;</summary>
 	</entry>
 </feed>

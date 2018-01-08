@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
-		<title>My Blog</title>
+		<title>ojikeii's blog</title>
 		<link>http://ojikeii.net/</link>
-		<description>Welcome!</description>
+		<description>ojikeii's blog</description>
 		<copyright>2018</copyright>
-		<pubDate>Mon, 08 Jan 2018 10:48:58 GMT</pubDate>
-		<lastBuildDate>Mon, 08 Jan 2018 10:48:58 GMT</lastBuildDate>
+		<pubDate>Mon, 08 Jan 2018 14:05:24 GMT</pubDate>
+		<lastBuildDate>Mon, 08 Jan 2018 14:05:24 GMT</lastBuildDate>
 		<item>
-			<title>First Post</title>
-			<link>http://ojikeii.net/posts/first-post</link>
-			<description>&lt;p&gt;This is my first post!&lt;/p&gt;</description>
-			<guid>http://ojikeii.net/posts/first-post</guid>
-			<pubDate>Fri, 01 Jan 2016 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;p&gt;This is my first post!&lt;/p&gt;
+			<title>ブログ移行しました</title>
+			<link>http://ojikeii.net/posts/2018-01-08</link>
+			<description>&lt;p&gt;&lt;a href="http://d.hatena.ne.jp/hagej_60527/"&gt;以前のブログ&lt;/a&gt;はそのまま残してあります。&lt;/p&gt;</description>
+			<guid>http://ojikeii.net/posts/2018-01-08</guid>
+			<pubDate>Mon, 08 Jan 2018 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;&lt;a href="http://d.hatena.ne.jp/hagej_60527/"&gt;以前のブログ&lt;/a&gt;はそのまま残してあります。&lt;/p&gt;
 </content:encoded>
 		</item>
 	</channel>
