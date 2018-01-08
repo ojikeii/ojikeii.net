@@ -31,7 +31,8 @@ on_success:
   - git config --global user.name "ojikeii"
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
   - git checkout master
-  - xcopy README.md ..\output\
+  - ps: ls
+#  - xcopy README.md ..\output\
   - git rm -rf .
   - xcopy ..\output . /E
   # your domain name or remove if not using a custom domain
