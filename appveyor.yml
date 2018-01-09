@@ -16,7 +16,7 @@ install:
   - set /P WYAMVERSION=< ..\Wyam\wyamversion.txt
   - echo %WYAMVERSION%
   # 2017/1/10 Now the version in the txt above is v1.2.0 but this version is not released yet.
-  - set WHAMVERSION="v1.1.0"
+  - set WHAMVERSION=v1.1.0
   # Get and unzip the latest version of Wyam
   - ps: Start-FileDownload "https://github.com/Wyamio/Wyam/releases/download/$env:WYAMVERSION/Wyam-$env:WYAMVERSION.zip" -FileName "..\Wyam\Wyam.zip"
   - 7z x ..\Wyam\Wyam.zip -o..\Wyam -r
