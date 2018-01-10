@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>ojikeii&#x27;s blog - IoT &#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x958B;&#x767A;&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#x30A2;&#x30C3;&#x30D7;&#x3092;&#x8AAD;&#x3093;&#x3067;&#x624B;&#x3092;&#x52D5;&#x304B;&#x3057;&#x3066;&#x307F;&#x305F;&#x3068;&#x304D;&#x306E;&#x30E1;&#x30E2;</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+
+		<meta name="description" content="ojikeii&#x27;s blog" />
+		<link type="application/rss+xml" rel="alternate" title="ojikeii&#x27;s blog" href="/feed.rss" />
+				<link type="application/atom+xml" rel="alternate" title="ojikeii&#x27;s blog" href="/feed.atom" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<!--<link rel="apple-touch-icon" href="/images/logo.png">-->
+
+		<meta name="application-name" content="ojikeii&#x27;s blog" />
+		<meta name="msapplication-tooltip" content="ojikeii&#x27;s blog" />
+		<meta name="msapplication-starturl" content="/" />
+
+		<meta property="og:title" content="ojikeii&#x27;s blog - IoT &#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x958B;&#x767A;&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#x30A2;&#x30C3;&#x30D7;&#x3092;&#x8AAD;&#x3093;&#x3067;&#x624B;&#x3092;&#x52D5;&#x304B;&#x3057;&#x3066;&#x307F;&#x305F;&#x3068;&#x304D;&#x306E;&#x30E1;&#x30E2;" /> 
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://ojikeii.net/posts/2018-01-11-001229" />
+		<!-- TODO: More social graph meta tags -->
+        
+
+		
+	</head>
+
+	<body>
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+
+    
+<header id="header">
+    <h1>IoT &#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x958B;&#x767A;&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#x30A2;&#x30C3;&#x30D7;&#x3092;&#x8AAD;&#x3093;&#x3067;&#x624B;&#x3092;&#x52D5;&#x304B;&#x3057;&#x3066;&#x307F;&#x305F;&#x3068;&#x304D;&#x306E;&#x30E1;&#x30E2;</h1>
+    <hr/>     
+        <p><em>Published on Thursday, January 11, 2018</em></p>
+</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><strong><a href='/'>ojikeii&#x27;s blog</a></strong></li>
+        <li><a href="/posts">Archive</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/about">About Me</a></li>
+
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Content -->
+					<section id="content" class="main">
+						
+
+<p>先月「<a href="https://www.amazon.co.jp/IoT%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%83%97%E3%83%AD%E3%83%88%E3%82%BF%E3%82%A4%E3%83%97%E3%81%A7%E5%85%A8%E3%83%AC%E3%82%A4%E3%83%A4%E3%82%92%E3%81%A4%E3%81%AA%E3%81%90-%E5%90%89%E6%BE%A4-%E7%A9%82%E7%A9%8D/dp/4865940944">IoT システム開発スタートアップ-プロトタイプで全レイヤをつなぐ</a>」を読んだときのメモ。</p>
+<h1 id="bleserial3">BLESerial3 を使う</h1>
+<p>本では BLESerial2 を使っていたが<a href="https://qiita.com/tomonari-t/items/d821fc5b4f05189828fa#bleserial2%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83">すでに生産が停止されているよう</a>で手に入らなかったので BLESerial3 を使った。BLESerial2 と BLESerial3 ではマイコンとの接続方法が微妙に異なる。前者は マイコンの TX は モジュールの TX、RX は RX に接続するが、後者の場合は TX は RX、RX は TX に接続する。  なので BLESerial3 を使う場合は本の通りに接続しても期待通りに動かない。「<a href="http://www.robotsfx.com/robot/BLESerial3.html">BLEモジュール　BLESerial３　の紹介</a>」の「3.3V系マイコンとの接続例」を参考にした。</p>
+<h1 id="ble-central">ゲートウェイ（BLE Central）のプログラム</h1>
+<p>BLESerail3 が送信したデータを Raspberry Pi 上の Windows 10 IoT で受信するためのコードを書く必要があるが、本にあるコードでは上手くいかなかった。代わりに下記のコードでとりあえず動いた。<a href="https://docs.microsoft.com/en-us/windows/uwp/devices-sensors/gatt-client">UWP の Bluetooth GATT Client 用 API のドキュメント</a> を参考にした。</p>
+<pre><code class="language-csharp">private async void HookGattCharacteristicAsync()
+{
+    // 結局デバイスの名前指定して取ることにした。
+    deviceInfos = await DeviceInformation.FindAllAsync(
+        BluetoothLEDevice.GetDeviceSelectorFromDeviceName(&quot;BLESerial_0&quot;)
+        );
+
+    if (deviceInfos == null || deviceInfos.Count != 1) return;
+
+    BluetoothLEDevice bleDevice = await BluetoothLEDevice.FromIdAsync(deviceInfos.First().Id);
+
+    GattDeviceServicesResult gattDeviceServices = await bleDevice.GetGattServicesForUuidAsync(GattServiceGuid);
+
+    if (gattDeviceServices.Status == GattCommunicationStatus.Success)
+    {
+        gattCharacteristics = await gattDeviceServices.Services.First().GetCharacteristicsForUuidAsync(GattCharacteristicGuid);
+
+        if (this.gattCharacteristics.Status == GattCommunicationStatus.Success)
+        {
+            var gattCharacteristic = this.gattCharacteristics.Characteristics.First();
+
+            // CCCD への書き込みが必要。これがないとイベントハンドラが呼ばれない。
+            GattCommunicationStatus status
+                = await gattCharacteristic.WriteClientCharacteristicConfigurationDescriptorAsync(GattClientCharacteristicConfigurationDescriptorValue.Notify);
+
+            if (status == GattCommunicationStatus.Success)
+            {
+                gattCharacteristic.ValueChanged += GattCharacteristic_ValueChanged;
+            }
+        }
+    }
+}
+</code></pre>
+<h1 id="bing-image-search-api-v7">Bing Image Search API v7 を使う</h1>
+<p>害鳥検出システムの教師データ用の画像収集プログラムで Bing Image Search API v5 を使っているが、v7 があったのでそちらを使ってみた。本では検索結果の重複を避けるため、現在のオフセットに、1回のクエリで取得する最大件数と <a href="https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/bing-images-api-v5-reference#nextoffsetaddcount">nextOffsetAddCount</a> を加えたものを次回クエリのオフセットに指定している。</p>
+<pre><code class="language-python">offset += BING_SKIP + result['nextOffsetAddCount'] # v5
+</code></pre>
+<p>v7 では nextOffsetAddCount は存在しない。代わりに <a href="https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/bing-images-api-v7-reference#nextoffset">nextOffset</a> の値をそのまま次回クエリのオフセットに指定する。</p>
+<pre><code class="language-python">offset = result['nextOffset'] # v7
+</code></pre>
+<h1 id="section">必要なもの</h1>
+<p>本の4章の始めの方に必要な部品やハードウェアのリストがあるが、そこに載ってあるもの以外に下記が必要となる。</p>
+<ul>
+<li>Micro SD カード（これに Windows 10 IoT を書き込んで Raspberry Pi に挿す）</li>
+<li>Micro SD カードの Reader/Writer（書き込む用）</li>
+<li>A-B USB ケーブル（PC と Arduino 接続用）</li>
+</ul>
+
+
+  
+        <ul class="actions small">
+                    <li><a role="button" href="/tags/Book.html" class="button small special">Book</a></li>
+        </ul>     
+ 
+					</section>
+
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				
+<p class="copyright text-muted">
+    Copyright © 2018 ojikeii
+    <br />
+        <a href="/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a>
+    |
+        <a href="/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+    <br />
+    Design: <a href="http://html5up.net">HTML5 UP</a>, <a href="https://wyam.io">Generated by Wyam</a>
+</p>
+			</footer>
+
+		</div>
+		
+		
+
+	<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/skel.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="/assets/js/main.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-6253423-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	</body>
+
+</html>
