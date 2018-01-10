@@ -1,7 +1,10 @@
 branches:
   only:
     - source
-    
+
+init:
+  - tzutil /s "Tokyo Standard Time"
+
 environment:
   access_token:
     # The encrypted version of your GitHub access token
