@@ -5,12 +5,16 @@
 		<link>http://ojikeii.net/</link>
 		<description>ojikeii's blog</description>
 		<copyright>2018</copyright>
-		<pubDate>Wed, 21 Mar 2018 09:52:52 GMT</pubDate>
-		<lastBuildDate>Wed, 21 Mar 2018 09:52:52 GMT</lastBuildDate>
+		<pubDate>Wed, 21 Mar 2018 10:28:36 GMT</pubDate>
+		<lastBuildDate>Wed, 21 Mar 2018 10:28:36 GMT</lastBuildDate>
 		<item>
+			<title>Azure Logic Apps テスト用の投稿</title>
 			<link>http://ojikeii.net/posts/2018-03-21-184821</link>
+			<description>&lt;p&gt;Azure Logic Apps のチュートリアルの動作確認のためのテストです。&lt;/p&gt;</description>
 			<guid>http://ojikeii.net/posts/2018-03-21-184821</guid>
 			<pubDate>Wed, 21 Mar 2018 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;Azure Logic Apps のチュートリアルの動作確認のためのテストです。&lt;/p&gt;
+</content:encoded>
 		</item>
 		<item>
 			<title>IoT システム開発スタートアップを読んで手を動かしてみたときのメモ</title>

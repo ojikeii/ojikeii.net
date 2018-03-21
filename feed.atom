@@ -4,13 +4,16 @@
 	<id>http://ojikeii.net/</id>
 	<title>ojikeii's blog</title>
 	<rights>2018</rights>
-	<updated>2018-03-21T09:52:52Z</updated>
+	<updated>2018-03-21T10:28:36Z</updated>
 	<subtitle>ojikeii's blog</subtitle>
 	<entry>
 		<link href="http://ojikeii.net/posts/2018-03-21-184821" />
 		<id>http://ojikeii.net/posts/2018-03-21-184821</id>
-		<title />
+		<title>Azure Logic Apps テスト用の投稿</title>
 		<updated>2018-03-21T00:00:00Z</updated>
+		<content>&lt;p&gt;Azure Logic Apps のチュートリアルの動作確認のためのテストです。&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;Azure Logic Apps のチュートリアルの動作確認のためのテストです。&lt;/p&gt;</summary>
 	</entry>
 	<entry>
 		<link href="http://ojikeii.net/posts/2018-01-11-001229" />
