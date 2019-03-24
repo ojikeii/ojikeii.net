@@ -8,7 +8,7 @@ init:
 environment:
   access_token:
     # The encrypted version of your GitHub access token
-    secure: ytKrs+JkA/rLFkfys0tYH88eZP9xDXyMTSiDltKG6cmJdj2qdwZkex6oAWhgR0X1
+    secure: namaYtRDmP9ZwcSuhNbnbXhW2GL5JDFt9kxM/e0Aiv5W8CO34fov69s/NzvAN2X4
 
 install:
   - git submodule update --init --recursive
