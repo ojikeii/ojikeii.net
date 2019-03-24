@@ -23,7 +23,8 @@ install:
   - 7z x ..\Wyam\Wyam.zip -o..\Wyam -r
 
 build_script:
-  - ..\Wyam\wyam --recipe Blog --theme Stellar --output ..\output
+  #- ..\Wyam\wyam --recipe Blog --theme Stellar --output ..\output
+  - dotnet ..\Wyam\Wyam.dll --output ..\output
 
 on_success:
   # Switch branches to master, clean the folder, copy everything in from the Wyam output, and commit/push
