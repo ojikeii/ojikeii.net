@@ -3,9 +3,1029 @@
 	<id>http://ojikeii.net/</id>
 	<title>ojikeii's blog</title>
 	<link rel="self" href="http://ojikeii.net/" />
-	<rights>2020</rights>
-	<updated>2020-01-12T16:07:18Z</updated>
+	<rights>2021</rights>
+	<updated>2021-03-01T15:50:14Z</updated>
 	<subtitle>ojikeii's blog</subtitle>
+	<entry>
+		<id>http://ojikeii.net/posts/2021-01-31-201519</id>
+		<title>今月の振り返り</title>
+		<link href="http://ojikeii.net/posts/2021-01-31-201519" />
+		<updated>2021-01-31T00:00:00Z</updated>
+		<content>&lt;p&gt;思いつきで今月を振り返ってみます。ですがその前に今年の目標を書いておきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;年間歩数240万&lt;/li&gt;
+&lt;li&gt;年間走行距離360km&lt;/li&gt;
+&lt;li&gt;箱根駅伝コース全区間を歩く&lt;/li&gt;
+&lt;li&gt;LeetCode 60問を2周やる&lt;/li&gt;
+&lt;li&gt;資格を1つ取る&lt;/li&gt;
+&lt;li&gt;年間12冊本を読む&lt;/li&gt;
+&lt;li&gt;新聞読む習慣をつける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今やりたいこととか全然ないので目標を考えてなかったのですが、1月を過ごしていく中でそれならそれで運動と勉強をしておけば損はないだろうという気持ちになれたので、とりあえずな目標を立ててみました。しばらくは基礎をしっかりやりたいなと思っています。&lt;/p&gt;
+&lt;p&gt;歩数と走行距離は昨年の実績から頑張ればこれくらいいけるかなという数字を設定しました。&lt;br&gt;
+箱根駅伝コース歩きは駅伝ファンとしては一度やってみたかったことです。
+実際の風景を知っていると違った見方もできるかもしれないという期待もありつつ。
+気になるのが5,6区を歩けるのかどうかで、これはちゃんと調べておきたいところです。&lt;/p&gt;
+&lt;p&gt;LeetCodeの60問は&lt;a href="https://1kohei1.com/leetcode/"&gt;これ&lt;/a&gt;。
+転職とか考えているわけでは（今はまだ）ないのでコーディング面接対策というつもりでもないのですが、普段あまり触れないというのもありアルゴリズムをちゃんと勉強しておきたい菜と思いました。&lt;/p&gt;
+&lt;p&gt;資格は秋にデータベーススペシャリストの試験を受けようかなと思っています。&lt;/p&gt;
+&lt;p&gt;本や新聞を読むというのは実は世の中のことをよく知らないんだなあと思ったので。興味のアンテナを広げたいなという意図もあります。
+本は何でもいいとしています。技術書でも小説でも何でも。&lt;/p&gt;
+&lt;p&gt;それでは1月の振り返りです。&lt;/p&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;項目&lt;/th&gt;
+&lt;th&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;歩数&lt;/td&gt;
+&lt;td&gt;133,745 歩&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;走行距離&lt;/td&gt;
+&lt;td&gt;50.5 km&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;箱根駅伝コース歩いた区間&lt;/td&gt;
+&lt;td&gt;1 区&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LeetCode やった問題の数&lt;/td&gt;
+&lt;td&gt;24 問&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;読んだ本&lt;/td&gt;
+&lt;td&gt;3冊&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;おおむね良い進捗です。特に走行距離はこのペースで行くと年間360kmは余裕で達成できるでしょう。まあ年始の休みでしっかり走ったというのが効いてたりしますが。
+おや、歩数の進捗は悪いですね。目標の年間240万歩へは月間20万歩の計算ですが全然足りません。まだ1月ですが目標達成できるか早速怪しくなってきました。原因は寒いからと言って平日ほとんど歩いてないことですね。これに関しては強い意志が必要そうです。頑張る…頑張ろう…。&lt;/p&gt;
+&lt;p&gt;箱根駅伝コースは1区を2回に分けて歩きました。1回目は日本橋～立会川まで。2回目は立会川～鶴見中継所まで。1区はずっと平坦で本当仕掛けどころないですね…六郷橋くらい。ということを実際の風景として見つつ、走っている選手を想像しながら歩くのはとても楽しかったです。来月は引き続き2区を歩きたい。&lt;/p&gt;
+&lt;p&gt;LeetCode はほぼ1日1問でやれてていい感じです。時間決めてその時間内で分からなかったらさっさと解答みて勉強する感じでやってます。DPはほとんど触れてこなかったのでやる前に埃かぶってた蟻本を引っ張りだして基礎のところを読んでから LeetCode の方にとりかかってたりしました。&lt;/p&gt;
+&lt;p&gt;特に数字を出していませんが新聞も今のところ毎日読めています。日経の電子版を購読しています。色々知れて面白いなと思いながら読めています。&lt;/p&gt;
+&lt;p&gt;目標とは関係ないところだと、毎日ラジオ体操をするようになりました。1日朝昼晩で3回。結構気持ちいいですし、夜はぐっすり眠れるようになった気がします。なのでちゃんと続けていきたいです。&lt;/p&gt;
+&lt;p&gt;というわけで今月は大体は滑り出し好調といった感じです。しかし歩数が駄目なので2月からは平日歩く時間を増やそうと思います。それではまた来月。&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;思いつきで今月を振り返ってみます。ですがその前に今年の目標を書いておきます。&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2021-01-01-203412</id>
+		<title>2020年の振り返り</title>
+		<link href="http://ojikeii.net/posts/2021-01-01-203412" />
+		<updated>2021-01-02T00:00:00Z</updated>
+		<content>&lt;p&gt;あけましておめでとうございます。いまさらですが 2020 年の振り返りです。&lt;/p&gt;
+&lt;h1 id="section"&gt;2020 年のハイライト&lt;/h1&gt;
+&lt;h2 id="section-1"&gt;運動&lt;/h2&gt;
+&lt;p&gt;せっかく Fitbit を使っているので数字を集計しました。&lt;br&gt;
+ランニングとウォーキングの区別はありませんが、まあ細かいことは気にしないということで。&lt;/p&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;月&lt;/th&gt;
+&lt;th&gt;歩数&lt;/th&gt;
+&lt;th&gt;距離(km)&lt;/th&gt;
+&lt;th&gt;消費カロリー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;181,339&lt;/td&gt;
+&lt;td&gt;133.6&lt;/td&gt;
+&lt;td&gt;63,584&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;161,630&lt;/td&gt;
+&lt;td&gt;116.22&lt;/td&gt;
+&lt;td&gt;59,626&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;261,000&lt;/td&gt;
+&lt;td&gt;185.64&lt;/td&gt;
+&lt;td&gt;68,119&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;131,790&lt;/td&gt;
+&lt;td&gt;98.35&lt;/td&gt;
+&lt;td&gt;55,885&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;85,701&lt;/td&gt;
+&lt;td&gt;67.58&lt;/td&gt;
+&lt;td&gt;54,809&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;107,426&lt;/td&gt;
+&lt;td&gt;79.94&lt;/td&gt;
+&lt;td&gt;54,615&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;07&lt;/td&gt;
+&lt;td&gt;102,794&lt;/td&gt;
+&lt;td&gt;78.5&lt;/td&gt;
+&lt;td&gt;56,440&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;08&lt;/td&gt;
+&lt;td&gt;109,633&lt;/td&gt;
+&lt;td&gt;85.32&lt;/td&gt;
+&lt;td&gt;56,746&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;09&lt;/td&gt;
+&lt;td&gt;142,488&lt;/td&gt;
+&lt;td&gt;106.13&lt;/td&gt;
+&lt;td&gt;57,597&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;221,923&lt;/td&gt;
+&lt;td&gt;162.2&lt;/td&gt;
+&lt;td&gt;63,952&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;320,609&lt;/td&gt;
+&lt;td&gt;227.25&lt;/td&gt;
+&lt;td&gt;67,436&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;213,097&lt;/td&gt;
+&lt;td&gt;155.45&lt;/td&gt;
+&lt;td&gt;62,584&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;total&lt;/td&gt;
+&lt;td&gt;2,039,430&lt;/td&gt;
+&lt;td&gt;1,496.19&lt;/td&gt;
+&lt;td&gt;721,397&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;在宅勤務が始まった4月から明らかに運動量が減ってますね。
+それでも4月はわりと意識して歩いてたりしましたが、5月以降は体を動かす意識があまりなかったので、それが数字に反映されています。
+10月からはウォーキングにはまりだして歩数が在宅前の水準に戻りました。&lt;/p&gt;
+&lt;p&gt;長時間のウォーキングは楽しいですね。近所だけでなく遠出して色々な道を歩きました。
+特に川沿いは好きで、隅田川・荒川は歩いてて気分が良いです。川沿いに住んでみたい。&lt;/p&gt;
+&lt;p&gt;そういえば2019年はフットサルをやっていて初勝利を目標にしていました。ですが2020年は全くやりませんでしたね…。まあこういう状況なので仕方がないです。
+いつになるか分からないですが状況が落ち着いたら、また人を集めて大会に参加したいな。&lt;/p&gt;
+&lt;p&gt;あとこれも状況が落ち着いたらなのですが、市民マラソンの大会もそろそろ出てみたいですね。フルマラソンは無理なので10kmくらいのがあれば。
+2020年はランニングをあまりしなかったので、何か目標を用意して回数を増やしたい。2021年もできない可能性がありますが。&lt;/p&gt;
+&lt;h2 id="section-2"&gt;ハロプロ+α&lt;/h2&gt;
+&lt;p&gt;2020年は下記のイベントに参加しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;08/26 モーニング娘。’20 佐藤優樹バースデーイベント&amp;#64;Zepp Divercity&lt;/li&gt;
+&lt;li&gt;12/13 BEYOOOOONDS FCイベント2020 ～クリスマスの陣ZIN～&amp;#64;大田区民ホール・アプリコ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2つです。去年が8つだったので大幅に減りました。まあこのご時世なので…。
+12月は娘。のプレモニにも申し込みましたが落ちてしまいました。
+そんな中でも推しのBDイベに参加できたのはとても良かったです。そういう雰囲気があるとかそういうのでは全然ないけど、もう2,3年で卒業してもおかしくないと思っているので、こういう機会はできるだけ逃したくないです。
+色々な工夫をして何とかイベントを開催してくれている運営には本当に感謝です。&lt;/p&gt;
+&lt;p&gt;+αの部分だと今年もukkaです。こちらも春先のツアーはなくなってしまいましたが、配信でライブは2回見ました。
+2021年も春にツアーの予定があるので、開催される &amp;amp;&amp;amp; 行ける状況なら行きたいなあ。&lt;/p&gt;
+&lt;p&gt;それと今回は総出費をちゃんと見ました。総額 94110 円でした。
+まあライブも少なかったですしそんなものかという感じですね。
+2021年はもう少し増えるかな。&lt;/p&gt;
+&lt;h2 id="section-3"&gt;お酒&lt;/h2&gt;
+&lt;p&gt;2020年は飲むお酒に少し変化がありました。
+元々ビールをかなり飲む方だったのですが、ビールは普段あまり飲まなくなりハイボールが増えました。
+これは何か健康を意識したとかそういうのではなく、4月からキリンのホームタップを始めた影響です。&lt;/p&gt;
+&lt;p&gt;ホームタップのビールは普通の缶ビールと比べて美味しいです。
+なのでビールはホームタップに寄せてしまい、普段はハイボールを飲むことにしました。&lt;/p&gt;
+&lt;p&gt;ホームタップはわりと楽に使えるので2021年も続けていきたいです。同様のサービスが色々出るようなのでそちらも様子見はしたいです。
+一番搾りプレミアムが基本のメニューで限定のビールが頻繁に出てますが、なんだかんだで一番搾りプレミアムが好きです。&lt;/p&gt;
+&lt;p&gt;またハイボールを飲むようになってウィスキーを色々試すようになりました。
+何かのネットの記事で見たグレングラント、デュワーズが好きです。またコスパが良いと感じます。
+しかし手に入りやすさから一番飲むのは角瓶だったりします（コンビニで売ってる）。
+2021年はマッカランとかラフロイグとかミーハー(?)な感じのものを少し飲んでみたいですね、高いので普段使いはしないですけど。&lt;/p&gt;
+&lt;h2 id="section-4"&gt;陸上長距離観戦&lt;/h2&gt;
+&lt;p&gt;2020年は日本選手権見に行きたいーみたいなことを言っていましたがやはりこういう状況なので生では見れてないです。
+ただ今年の日本選手権はとても面白かったので、生で見に行ける状況がもし来たら本当に見てみたいと思っています。&lt;/p&gt;
+&lt;h2 id="section-5"&gt;お仕事&lt;/h2&gt;
+&lt;p&gt;結構微妙な感じですね。やったことに対して少しだけ良い評価をもらったので、それは素直に良かったです。
+ただ良かったことはそれくらいかも…。モチベは下がっています。インプットの量は減りました。
+内容は書きませんがチームも個人も問題を色々抱えたまま2021年になりました。
+2021年はチームにとっても個人にとっても分水嶺になる予感がしています。
+ですが現状を打破するためにどうすればいいかまだ明確なアイディアがないので、今年初めかなり悩むことになりそうです。&lt;/p&gt;
+&lt;h1 id="section-6"&gt;2021 年はどうしよう&lt;/h1&gt;
+&lt;p&gt;さてさて今の状況はしばらく続きそうですが。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;運動 -&amp;gt; ウォーキングは続けつつ、ランニングを増やしたい。そのためにタイミング合えば何か大会申し込みたい。&lt;/li&gt;
+&lt;li&gt;ハロプロ+α -&amp;gt; 推し関連のイベントは死守したい… ukka も引き続き追いかける。&lt;/li&gt;
+&lt;li&gt;お仕事 -&amp;gt; 悩み中ですが、気晴らしかねてインプット増やしたい。月1冊何か本を読んでいきたい。&lt;/li&gt;
+&lt;li&gt;引っ越し -&amp;gt; 諸事情で5月あたりに良いところがあれば引っ越すかも。3月くらいには場所の目途を付けておきたい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;なんとか、なんとか今年も生きていきたい…&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;あけましておめでとうございます。いまさらですが 2020 年の振り返りです。&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2020-04-23-232334</id>
+		<title>(自分用メモ) PHP におけるオブジェクトの比較</title>
+		<link href="http://ojikeii.net/posts/2020-04-23-232334" />
+		<updated>2020-04-23T00:00:00Z</updated>
+		<content>&lt;h1 id="section"&gt;きっかけ&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://leetcode.com/problems/linked-list-cycle/"&gt;https://leetcode.com/problems/linked-list-cycle/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="section-1"&gt;内容&lt;/h1&gt;
+&lt;p&gt;PHP の比較は緩やかな比較(==)と厳密な比較(===)があるが、オブジェクトの比較の場合は下記のようになる&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;緩やかな比較(==)
+&lt;ul&gt;
+&lt;li&gt;同じクラスのインスタンスであり、かつ全てのプロパティが(緩やかな比較において)等しいならに2つのオブジェクトは等しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;厳密な比較(===)
+&lt;ul&gt;
+&lt;li&gt;同じクラスの同じインスタンスを参照しているなら2つのオブジェクトは等しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;なのでオブジェクト構造が単純でない場合にうっかり緩やかな比較を使うと時間がかかる&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-PHP"&gt;// 例えばこういう Linked List の要素を表すクラスがあったとする
+class Node
+{
+    public __construct(int $value, ?Node $next) {
+        $this-&amp;gt;value = $value;
+        $this-&amp;gt;next = $next;
+    }
+
+    /** &amp;#64;var int */
+    private $value;
+
+    /** &amp;#64;var Node */
+    private $next;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class="language-PHP"&gt;// ループがあるかどうか判定する
+function hasCycle($head) {
+    /** &amp;#64;var Node[] $nodes */
+    $nodes = [];
+    
+    /** &amp;#64;var Node $cur */
+    $cur = $head;
+
+    while (true) {
+        // こうするとやる必要のない比較が走って時間がかかる
+        //if (in_array($cur, $nodes)) {
+        // こうするのが正しい
+        if (in_array($cur, $nodes, true)) {
+            return true;
+        }
+        if ($cur === null) {
+            return false;
+        }
+        $nodes[] = $cur;
+        $cur = $cur-&amp;gt;next;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id="section-2"&gt;感想&lt;/h1&gt;
+&lt;p&gt;緩やかな比較でも普通に動いてしまうので最初 in_array に true 渡してないの気づかなかった。&lt;br&gt;
+やたら時間がかかってたので見直してみたら…な感じ。&lt;br&gt;
+個人的には緩やかな比較はなくなればいいのに…って思う&lt;/p&gt;
+&lt;h1 id="section-3"&gt;参照&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.php.net/manual/ja/language.oop5.object-comparison.php"&gt;https://www.php.net/manual/ja/language.oop5.object-comparison.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.php.net/manual/ja/function.in-array.php"&gt;https://www.php.net/manual/ja/function.in-array.php&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;&lt;a href="https://leetcode.com/problems/linked-list-cycle/"&gt;https://leetcode.com/problems/linked-list-cycle/&lt;/a&gt;&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2020-03-22-195655</id>
+		<title>トマトソースのパスタ</title>
+		<link href="http://ojikeii.net/posts/2020-03-22-195655" />
+		<updated>2020-03-22T00:00:00Z</updated>
+		<content>&lt;h1 id="section"&gt;動機&lt;/h1&gt;
+&lt;p&gt;散歩してたらイタリアンがよく目についたのと春の陽気でさっぱりしたパスタを食べたくなった。&lt;/p&gt;
+&lt;h1 id="section-1"&gt;材料&lt;/h1&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;材料&lt;/th&gt;
+&lt;th&gt;量&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ホールトマト&lt;/td&gt;
+&lt;td&gt;2缶&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;玉ねぎ&lt;/td&gt;
+&lt;td&gt;中くらいのやつ1個&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;鶏もも肉&lt;/td&gt;
+&lt;td&gt;300gくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;しめじ&lt;/td&gt;
+&lt;td&gt;1パック&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;パスタ&lt;/td&gt;
+&lt;td&gt;120g&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;にんにくすりおろし&lt;/td&gt;
+&lt;td&gt;適量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;オリーブオイル&lt;/td&gt;
+&lt;td&gt;90mL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;鷹の爪&lt;/td&gt;
+&lt;td&gt;1本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;塩(トマトソース用)&lt;/td&gt;
+&lt;td&gt;6-7g&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;塩(ブライニング用)&lt;/td&gt;
+&lt;td&gt;15g&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;塩(パスタ茹でる用)&lt;/td&gt;
+&lt;td&gt;15g&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;砂糖(ブライニング用)&lt;/td&gt;
+&lt;td&gt;15g&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;水(ブライニング用)&lt;/td&gt;
+&lt;td&gt;0.5L&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;水(パスタ茹でる用)&lt;/td&gt;
+&lt;td&gt;1.5L&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;バター&lt;/td&gt;
+&lt;td&gt;8g&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="section-2"&gt;参考&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://note.com/travelingfoodlab/n/n8666da4a3329"&gt;基本のトマトソース&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="section-3"&gt;手順&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;鶏肉はブライニングしておいた
+&lt;ul&gt;
+&lt;li&gt;肉の食感を柔らかくするため&lt;/li&gt;
+&lt;li&gt;塩、砂糖、水をボールに入れて混ぜて鶏肉をつけて冷蔵庫で30分くらい放置した&lt;/li&gt;
+&lt;li&gt;2,3時間つけておくのが普通らしいが今回は時間の都合上30分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;しめじはバラした&lt;/li&gt;
+&lt;li&gt;玉ねぎはフードカッターでみじん切りにした&lt;/li&gt;
+&lt;li&gt;鷹の爪は輪切りにした&lt;/li&gt;
+&lt;li&gt;パスタはあらかじめ計量して必要な分を出しておいた&lt;/li&gt;
+&lt;li&gt;パスタ用の水と塩はあらかじめ鍋にいれておいた&lt;/li&gt;
+&lt;li&gt;玉ねぎとにんにくすりおろしとオリーブオイルをフライパンに入れて弱火にした
+&lt;ul&gt;
+&lt;li&gt;5,6分くらい放置した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ホールトマトをフライパンに入れた
+&lt;ul&gt;
+&lt;li&gt;15分くらい放置した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;フライパンを放置している間に鶏肉を出して水気をキッチンペーパーで切って一口大に切った&lt;/li&gt;
+&lt;li&gt;トマトをつぶした&lt;/li&gt;
+&lt;li&gt;塩を入れた&lt;/li&gt;
+&lt;li&gt;しめじをフライパンに入れて煮こんだ&lt;/li&gt;
+&lt;li&gt;鶏肉も追加した&lt;/li&gt;
+&lt;li&gt;15分くらい煮こんだ&lt;/li&gt;
+&lt;li&gt;並行して鍋で水を沸かしてパスタを茹でた&lt;/li&gt;
+&lt;li&gt;茹でたパスタの水を切ってバター入れた器に入れた&lt;/li&gt;
+&lt;li&gt;トマトソースも適量入れて和えた&lt;/li&gt;
+&lt;li&gt;なんとなくパセリと胡椒振っておわり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="section-4"&gt;感想&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;期待通りのあっさりな感じが出せて満足
+&lt;ul&gt;
+&lt;li&gt;玉ねぎの量や炒め時間であっさり度は制御できそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;鶏肉は10分くらいの煮込みがちょうどいい感じがする
+&lt;ul&gt;
+&lt;li&gt;それ以上だと固くなりそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;パスタ、表示時間より3分くらい長く茹でないといけないの、パスタの種類によるのかな
+&lt;ul&gt;
+&lt;li&gt;いままで表示時間でちゃんと茹でられたことがない&lt;/li&gt;
+&lt;li&gt;火が弱いとかか？うーん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;散歩してたらイタリアンがよく目についたのと春の陽気でさっぱりしたパスタを食べたくなった。&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2020-03-21-195543</id>
+		<title>唐元気</title>
+		<link href="http://ojikeii.net/posts/2020-03-21-195543" />
+		<updated>2020-03-21T00:00:00Z</updated>
+		<content>&lt;h1 id="section"&gt;動機&lt;/h1&gt;
+&lt;p&gt;唐元気。またの名をにんにくの芽とパプリカとエビの炒め物。
+三鷹のハルピンのメニューの再現。
+このお店は餃子が最高だけど、この唐元気もとにかく好きなのでわりと頻繁に食べたくなる。
+というわけで作った。&lt;/p&gt;
+&lt;h1 id="section-1"&gt;材料&lt;/h1&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;材料&lt;/th&gt;
+&lt;th&gt;量&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;にんにくの芽&lt;/td&gt;
+&lt;td&gt;2パック&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;パプリカ&lt;/td&gt;
+&lt;td&gt;1個&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;冷凍エビ&lt;/td&gt;
+&lt;td&gt;100gくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;鷹の爪&lt;/td&gt;
+&lt;td&gt;1本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;鶏がらスープの素&lt;/td&gt;
+&lt;td&gt;適量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;胡椒&lt;/td&gt;
+&lt;td&gt;適量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ごま油&lt;/td&gt;
+&lt;td&gt;大さじ1+適量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="section-2"&gt;手順&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;にんにくの芽は4,5cm幅に切った&lt;/li&gt;
+&lt;li&gt;パプリカは縦に薄く切って横に半分に切った&lt;/li&gt;
+&lt;li&gt;エビは解凍して半分に切った&lt;/li&gt;
+&lt;li&gt;鷹の爪は輪切りにした&lt;/li&gt;
+&lt;li&gt;フライパンにごま油大さじ1と鷹の爪を入れて弱火で熱した&lt;/li&gt;
+&lt;li&gt;鷹の爪の香りが出てきたらにんにくの芽とパプリカを入れて弱めの中火で炒めた&lt;/li&gt;
+&lt;li&gt;1,2分炒めたらエビを入れた&lt;/li&gt;
+&lt;li&gt;7,8分炒めたら鶏がらスープの素、胡椒をかけた&lt;/li&gt;
+&lt;li&gt;ごま油をちょっとだけかけて和えたら火止めておわり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="section-3"&gt;感想&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;何回か作っているけど本家と同じになるかというと微妙…
+&lt;ul&gt;
+&lt;li&gt;でも好きな仕上がりになるので問題ない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ポイントは火を通しすぎないこと
+&lt;ul&gt;
+&lt;li&gt;本家はにんにくの芽とパプリカの食感が結構しゃっきりしている&lt;/li&gt;
+&lt;li&gt;なので中火の弱めで炒める&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;唐元気。またの名をにんにくの芽とパプリカとエビの炒め物。
+三鷹のハルピンのメニューの再現。
+このお店は餃子が最高だけど、この唐元気もとにかく好きなのでわりと頻繁に食べたくなる。
+というわけで作った。&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2020-02-24-202729</id>
+		<title>ぶり大根</title>
+		<link href="http://ojikeii.net/posts/2020-02-24-202729" />
+		<updated>2020-02-24T00:00:00Z</updated>
+		<content>&lt;h1 id="section"&gt;動機&lt;/h1&gt;
+&lt;p&gt;前日買った日本酒が結構甘めで、それに合うような味付けのものが食べたかったので。&lt;/p&gt;
+&lt;h1 id="section-1"&gt;材料&lt;/h1&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;材料&lt;/th&gt;
+&lt;th&gt;量&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ぶり切り身&lt;/td&gt;
+&lt;td&gt;2切れ 180gくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大根&lt;/td&gt;
+&lt;td&gt;たぶん1/8本くらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;しめじ&lt;/td&gt;
+&lt;td&gt;カット済み1パック&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;水&lt;/td&gt;
+&lt;td&gt;500ml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;酒&lt;/td&gt;
+&lt;td&gt;100ml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;粉末だし&lt;/td&gt;
+&lt;td&gt;水500mlに合わせた量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;醤油&lt;/td&gt;
+&lt;td&gt;大さじ3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;黒糖&lt;/td&gt;
+&lt;td&gt;大さじ2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;みりん&lt;/td&gt;
+&lt;td&gt;大さじ2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;刻みねぎ&lt;/td&gt;
+&lt;td&gt;適量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="section-2"&gt;参考&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.sirogohan.com/recipe/buridaikon/"&gt;https://www.sirogohan.com/recipe/buridaikon/&lt;/a&gt;&lt;br&gt;
+※ぶりのアラを使えと書いてあるが、ここでは切り身を使った&lt;/p&gt;
+&lt;h1 id="section-3"&gt;手順&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;ぶりは塩振って15分置いた&lt;/li&gt;
+&lt;li&gt;大根は2cm幅くらいに輪切りにして皮をむいた&lt;/li&gt;
+&lt;li&gt;さらにいちょう切りっぽく1/6に切った&lt;/li&gt;
+&lt;li&gt;塩振ったぶりは洗って一口大に切った&lt;/li&gt;
+&lt;li&gt;鍋に水と酒と粉末だし入れて火にかけた&lt;/li&gt;
+&lt;li&gt;鍋に大根を入れて20分くらい中火で煮た
+&lt;ul&gt;
+&lt;li&gt;煮るときはキッチンシートを切って作った落とし蓋をのせておいた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ぶりとしめじを入れた&lt;/li&gt;
+&lt;li&gt;黒糖をいれた&lt;/li&gt;
+&lt;li&gt;2分くらいして醤油、みりんをいれた&lt;/li&gt;
+&lt;li&gt;その後12,3分くらい煮ておわり。盛り付けるときにねぎかけた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="section-4"&gt;感想&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;ちょうどいい味付けのものが出来たと思う&lt;/li&gt;
+&lt;li&gt;下処理はいくつかさぼったが、特に気にならなかった
+&lt;ul&gt;
+&lt;li&gt;鰤に熱湯かけるとか、大根の面取りとか下茹でとかを省いた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;黒糖を使ったが、普通に砂糖でいいと思う
+&lt;ul&gt;
+&lt;li&gt;黒糖しかなかったので黒糖を使ったが、特別何かこだわりがあるわけではない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;前日買った日本酒が結構甘めで、それに合うような味付けのものが食べたかったので。&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2020-02-23-192704</id>
+		<title>白菜と油揚げの炊いたん</title>
+		<link href="http://ojikeii.net/posts/2020-02-23-192704" />
+		<updated>2020-02-23T00:00:00Z</updated>
+		<content>&lt;h1 id="section"&gt;動機&lt;/h1&gt;
+&lt;p&gt;あっさりしていて出汁の効いたものを食べたかったので。&lt;/p&gt;
+&lt;h1 id="section-1"&gt;材料&lt;/h1&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;材料&lt;/th&gt;
+&lt;th&gt;量&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;白菜&lt;/td&gt;
+&lt;td&gt;カット済みのやつ2パック 1/4くらい?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;油揚げ&lt;/td&gt;
+&lt;td&gt;2枚&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;しめじ&lt;/td&gt;
+&lt;td&gt;カット済みのやつ1パック 80gくらい?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;水&lt;/td&gt;
+&lt;td&gt;600cc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;粉末だし&lt;/td&gt;
+&lt;td&gt;600ccの水に合わせた量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;醤油&lt;/td&gt;
+&lt;td&gt;大さじ1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;みりん&lt;/td&gt;
+&lt;td&gt;大さじ1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="section-2"&gt;参考&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://recipe.suntory.co.jp/recipe/001679"&gt;サントリーレシピッタのレシピ&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="section-3"&gt;手順&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;下処理
+&lt;ul&gt;
+&lt;li&gt;白菜は洗った&lt;/li&gt;
+&lt;li&gt;油揚げは油抜きして切った
+&lt;ul&gt;
+&lt;li&gt;2分くらい茹でてキッチンペーパーで水を切った&lt;/li&gt;
+&lt;li&gt;その後、1,2cm幅, 5cmくらい長に切った&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;水と各種調味料を鍋にいれて中火にかけた&lt;/li&gt;
+&lt;li&gt;煮立ってきたら白菜としめじを入れた&lt;/li&gt;
+&lt;li&gt;弱火で15分くらい煮ておわり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="section-4"&gt;感想&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;これは結構好きで何回か作っている
+&lt;ul&gt;
+&lt;li&gt;あっさりしたものが食べたい気分のときはその気分にしっかりハマるので好き&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;油揚げによって食感のボリュームが上がるのでいい仕事していると思う&lt;/li&gt;
+&lt;li&gt;カット済みを使えばとても簡単でよい
+&lt;ul&gt;
+&lt;li&gt;油揚げもカット済みのものを使いたいところだけど、今住んでるところの近所には見当たらないので残念&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;醤油は今回は濃口だが薄口だとなんとなくそれっぽい気はする
+&lt;ul&gt;
+&lt;li&gt;が、まあわりとどうでもいい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;あっさりしていて出汁の効いたものを食べたかったので。&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2020-01-26-214307</id>
+		<title>カレー</title>
+		<link href="http://ojikeii.net/posts/2020-01-26-214307" />
+		<updated>2020-01-26T00:00:00Z</updated>
+		<content>&lt;h1 id="section"&gt;動機&lt;/h1&gt;
+&lt;p&gt;最近作っていなかったのと、白ワインが本当に合うのか試してみたかったので。&lt;/p&gt;
+&lt;h1 id="section-1"&gt;材料&lt;/h1&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;材料&lt;/th&gt;
+&lt;th&gt;量&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;クミン&lt;/td&gt;
+&lt;td&gt;小さじ0.5くらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ターメリック&lt;/td&gt;
+&lt;td&gt;小さじ半分0.5くらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;コリアンダー&lt;/td&gt;
+&lt;td&gt;小さじ1くらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;カルダモン&lt;/td&gt;
+&lt;td&gt;小さじ1くらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;オールスパイス&lt;/td&gt;
+&lt;td&gt;小さじ0.2くらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;クローブ&lt;/td&gt;
+&lt;td&gt;小さじ0.2くらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;カイエンペッパー&lt;/td&gt;
+&lt;td&gt;小さじ1くらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;クミンシード&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;八角&lt;/td&gt;
+&lt;td&gt;1個&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;玉ねぎ&lt;/td&gt;
+&lt;td&gt;大きめのやつ1個 300gくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;鶏もも肉&lt;/td&gt;
+&lt;td&gt;280gくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ローレル&lt;/td&gt;
+&lt;td&gt;1枚&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;塩&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;胡椒&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;トマトペースト&lt;/td&gt;
+&lt;td&gt;2袋&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;にんにくチューブ&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;コンソメキューブ&lt;/td&gt;
+&lt;td&gt;1個&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;水&lt;/td&gt;
+&lt;td&gt;600cc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="section-2"&gt;手順&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;玉ねぎをフードカッターでみじんぎりにした&lt;/li&gt;
+&lt;li&gt;フライパンに油敷いて中火で玉ねぎを炒めた&lt;/li&gt;
+&lt;li&gt;鶏肉に塩こしょうをふっておいた&lt;/li&gt;
+&lt;li&gt;玉ねぎはこげ茶色になるまで炒めていったん出した&lt;/li&gt;
+&lt;li&gt;鶏肉をフライパンで焼き色つくくらいまで焼いた&lt;/li&gt;
+&lt;li&gt;鶏肉を出して油いれてにんにく、八角、クミンシードを弱火で炒めた&lt;/li&gt;
+&lt;li&gt;炒めた玉ねぎを入れて炒めた&lt;/li&gt;
+&lt;li&gt;トマトペーストを入れて炒めた&lt;/li&gt;
+&lt;li&gt;スパイス群、塩を入れて炒めた&lt;/li&gt;
+&lt;li&gt;水、コンソメキューブを入れて煮込んだ&lt;/li&gt;
+&lt;li&gt;煮立ってきたら鶏肉、ローリエを入れた&lt;/li&gt;
+&lt;li&gt;10分くらい煮込んでおわり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="section-3"&gt;感想&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;色がけっこう濃いめというか黒っぽくなった
+&lt;ul&gt;
+&lt;li&gt;今回ホールトマト使ってないからかな&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;辛さは辛めな感じだけど個人的にちょうど良い
+&lt;ul&gt;
+&lt;li&gt;冷めると辛さがおさまる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ローリエ、気分で入れてるけどカレーに関しては効果をあまり感じない&lt;/li&gt;
+&lt;li&gt;白ワイン、辛口よりかはすこし辛さを抑えたもののほうが合う感じが個人的にはする
+&lt;ul&gt;
+&lt;li&gt;リースリングとシャルドネを試したが、後者のほうがいい感じだった&lt;/li&gt;
+&lt;li&gt;ワインはスーパーで売ってる千円くらいの安いやつ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;最近作っていなかったのと、白ワインが本当に合うのか試してみたかったので。&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2020-01-19-201835</id>
+		<title>野菜素揚げと鶏ハツ焼き醤油和え(とカレー)</title>
+		<link href="http://ojikeii.net/posts/2020-01-19-201835" />
+		<updated>2020-01-19T00:00:00Z</updated>
+		<content>&lt;h1 id="section"&gt;動機&lt;/h1&gt;
+&lt;p&gt;野菜の素揚げを鉄のフライパンで作るとどうなるのか知りたかったので。&lt;br&gt;
+鶏ハツはスーパーで見かけてうっかり買ってしまったので。&lt;br&gt;
+カレーはおまけ。無印のレトルト。&lt;/p&gt;
+&lt;h1 id="section-1"&gt;材料&lt;/h1&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;材料&lt;/th&gt;
+&lt;th&gt;量&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;冷凍野菜(ブロッコリー・カリフラワー・いんげん・人参・ヤングコーン)&lt;/td&gt;
+&lt;td&gt;150gくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;塩&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;胡椒&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;油&lt;/td&gt;
+&lt;td&gt;炒めるよりは多いが揚げるには少ないくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;鶏ハツ&lt;/td&gt;
+&lt;td&gt;180gくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;きざみ青ねぎ&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;醤油&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;みりん&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ごま油&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;カレー(無印のバタチキ)&lt;/td&gt;
+&lt;td&gt;1パック&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="section-2"&gt;参考&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=xj9q_10MSio"&gt;鶏ハツの下処理(youtube動画)&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="section-3"&gt;手順&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;下処理
+&lt;ul&gt;
+&lt;li&gt;冷凍の野菜はレンジで解凍しておいた&lt;/li&gt;
+&lt;li&gt;鶏ハツは白い部分切って切り開いて水で洗った&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;野菜素揚げ
+&lt;ul&gt;
+&lt;li&gt;鉄のフライパンに油入れていい感じになったら野菜を入れた&lt;/li&gt;
+&lt;li&gt;野菜がいい感じになったら器に出した&lt;/li&gt;
+&lt;li&gt;塩こしょう振っておわり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;鶏ハツ
+&lt;ul&gt;
+&lt;li&gt;油はいったんオイルポットに捨てて、フライパンをキッチンペーパーで少し拭いた&lt;/li&gt;
+&lt;li&gt;鶏ハツを焼いた&lt;/li&gt;
+&lt;li&gt;鶏ハツがいい感じになったら器に出した&lt;/li&gt;
+&lt;li&gt;醤油とみりんとごま油を入れて和えておわり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;カレー
+&lt;ul&gt;
+&lt;li&gt;上記と並行してお湯沸かして入れておいた&lt;/li&gt;
+&lt;li&gt;器に空けておわり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="section-4"&gt;感想&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;野菜の素揚げ、というか揚げ焼きな感じだがとても美味しい
+&lt;ul&gt;
+&lt;li&gt;鉄のフライパンだと焼き上がりがいい感じになる（気がする）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;冷凍の野菜はちゃんと解凍して水気とったほうがいい
+&lt;ul&gt;
+&lt;li&gt;今回は袋に指定されている時間より少し短めで解凍したが水っ気を残していると油がはねてフライパンがゴキゲンな感じになる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;鶏ハツは最初揚げ焼きにしようと思って入れたが、これも水っ気があったためかフライパンがフィーバーしたので油を捨てて普通に焼くことにした&lt;/li&gt;
+&lt;li&gt;鶏ハツの味付けはまあまあ。塩コショウが王道だと思うけど。&lt;/li&gt;
+&lt;li&gt;カレー、実は白ワインと合うのでは？
+&lt;ul&gt;
+&lt;li&gt;合うというか、カレーを邪魔しないのがいいのか？ちょっと色々試してみたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;野菜の素揚げを鉄のフライパンで作るとどうなるのか知りたかったので。&lt;br&gt;
+鶏ハツはスーパーで見かけてうっかり買ってしまったので。&lt;br&gt;
+カレーはおまけ。無印のレトルト。&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>http://ojikeii.net/posts/2020-01-14-012233</id>
+		<title>生白子/焼き白子</title>
+		<link href="http://ojikeii.net/posts/2020-01-14-012233" />
+		<updated>2020-01-14T00:00:00Z</updated>
+		<content>&lt;h1 id="section"&gt;動機&lt;/h1&gt;
+&lt;p&gt;スーパーで売り切れそうな白子を見てしまったので。&lt;/p&gt;
+&lt;h1 id="section-1"&gt;材料&lt;/h1&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;材料&lt;/th&gt;
+&lt;th&gt;量&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;白子&lt;/td&gt;
+&lt;td&gt;180gくらい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;もみじおろし&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;薬味(ねぎ、しょうが、みょうが)&lt;/td&gt;
+&lt;td&gt;適当&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="section-2"&gt;参考&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.yamauchi-f.com/recipe/?p=1499"&gt;生白子&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.yamauchi-f.com/recipe/?p=2025"&gt;焼き白子&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="section-3"&gt;手順&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;下処理
+&lt;ul&gt;
+&lt;li&gt;白子を流水で洗った&lt;/li&gt;
+&lt;li&gt;白子の筋を切った
+&lt;ul&gt;
+&lt;li&gt;特に赤い部分だけ。途中で面倒くさくてやめた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;白子を食べやすそうなサイズに切った&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;生白子
+&lt;ul&gt;
+&lt;li&gt;お湯を沸かした
+&lt;ul&gt;
+&lt;li&gt;80℃くらい。温度は冷水入れて適宜調整した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;白子を1,2個ずつ入れて30秒くらい茹でた&lt;/li&gt;
+&lt;li&gt;茹でた白子は冷水でしめた
+&lt;ul&gt;
+&lt;li&gt;氷水がいいらしいが氷がなかったのでただの冷水で。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;焼き白子
+&lt;ul&gt;
+&lt;li&gt;切った白子をアルミホイルにのせた&lt;/li&gt;
+&lt;li&gt;コンロのグリルで中火で5,6分焼いた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="section-4"&gt;感想&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;日本酒とワイン（シャブリ）で試したが、個人的には日本酒が良かった
+&lt;ul&gt;
+&lt;li&gt;生白子も焼き白子も。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;焼き白子はもっと焼いててもよかったかもしれない&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>&lt;p&gt;スーパーで売り切れそうな白子を見てしまったので。&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<id>http://ojikeii.net/posts/2020-01-11-195505</id>
 		<title>豚肉のピラフ</title>
@@ -89,6 +1109,7 @@
 &lt;li&gt;香りが出てきたらにんにくの芽とヤングコーンを入れた&lt;/li&gt;
 &lt;li&gt;ちょっと炒めた後しめじを入れた&lt;/li&gt;
 &lt;li&gt;しめじが縮んできたら豚肉を入れた&lt;/li&gt;
+&lt;li&gt;塩こしょうを入れた&lt;/li&gt;
 &lt;li&gt;豚肉が白くなってきたら米を入れた&lt;/li&gt;
 &lt;li&gt;3,4分炒めてから赤ワインを入れた&lt;/li&gt;
 &lt;li&gt;アルコール飛んだ感じになったら水を入れた&lt;/li&gt;
@@ -98,7 +1119,7 @@
 &lt;/ul&gt;
 &lt;h1 id="section-3"&gt;感想&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;水は(ワイン含めて)米の1.2~1.3くらい目安だったが、自分の好みとしてはもうちょっと少なくてもよかったかも&lt;/li&gt;
+&lt;li&gt;水は(ワイン含めて)米の1.2~1.3倍くらいの量が目安だったが、自分の好みとしてはもうちょっと少なくてもよかったかも&lt;/li&gt;
 &lt;li&gt;炊き時間は20分くらいで十分だったかも&lt;/li&gt;
 &lt;li&gt;炒める時間はもっと短くてよい&lt;/li&gt;
 &lt;li&gt;赤ワインは色付けと風味付けを狙ったけど
