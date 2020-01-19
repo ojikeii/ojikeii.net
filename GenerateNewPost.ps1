@@ -6,16 +6,19 @@ $path = Join-Path $PSScriptRoot "input/posts/${name}.md"
 $template = ""
 switch -Exact ($tag) {
     "cooking" {
-        $template=@"
+        $template = @"
 # 動機
 # 材料
 |材料|量|
 |---|---|
+|||
+# 参考
+[]()
 # 手順
 # 感想
 "@
-      }
-    Default {}
+    }
+    Default { }
 }
 
 $content = @"
