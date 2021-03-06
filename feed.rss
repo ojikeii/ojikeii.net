@@ -5,8 +5,53 @@
 		<link>http://ojikeii.net/</link>
 		<description>ojikeii's blog</description>
 		<copyright>2021</copyright>
-		<pubDate>Mon, 01 Mar 2021 16:59:17 GMT</pubDate>
-		<lastBuildDate>Mon, 01 Mar 2021 16:59:17 GMT</lastBuildDate>
+		<pubDate>Sat, 06 Mar 2021 11:12:24 GMT</pubDate>
+		<lastBuildDate>Sat, 06 Mar 2021 11:12:24 GMT</lastBuildDate>
+		<item>
+			<title>先月の振り返り</title>
+			<link>http://ojikeii.net/posts/2021-03-06-194156</link>
+			<description>&lt;p&gt;2月の振り返りです。早速数字を見ていきましょう。&lt;/p&gt;</description>
+			<guid>http://ojikeii.net/posts/2021-03-06-194156</guid>
+			<pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;2月の振り返りです。早速数字を見ていきましょう。&lt;/p&gt;
+&lt;table class="table"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;項目&lt;/th&gt;
+&lt;th&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;歩数&lt;/td&gt;
+&lt;td&gt;208,934 歩&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;走行距離&lt;/td&gt;
+&lt;td&gt;47.5 km&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;箱根駅伝コース歩いた区間&lt;/td&gt;
+&lt;td&gt;2 区&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LeetCode やった問題の数&lt;/td&gt;
+&lt;td&gt;15 問&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;読んだ本&lt;/td&gt;
+&lt;td&gt;0冊&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;歩数が先月と比べてかなり伸びました。できるだけ平日歩くように心掛けていたので、それが効いています。ひとまず安心というところですが、1月の借金はまだまだ残っているので少しずつ返済していきたいですね。&lt;/p&gt;
+&lt;p&gt;走る方は引き続き順調です。基本週末だけ走りますが、週末以外の休日も走るようにしているのでそういう日があると伸びますね。走るのが億劫になる時期がくる可能性もゼロではないので走れるときにしっかり距離を稼いでいきたいです。&lt;/p&gt;
+&lt;p&gt;箱根駅伝コースは2区を歩きました。2区は前半と後半のギャップが面白かったです。1区と同様に平坦だった前半と比べると、後半の大きな上り下りがいくつかあり、また風景も徐々に変わっていって、全体的に変化にとんだコースだったかなと思います。最後の上りは歩いてても結構きついですね、2区はやはり相当タフなコースなのだということを認識できました。&lt;/p&gt;
+&lt;p&gt;LeetCode は1日1問のペースからはちょっと遅いですね。解答をしっかり読んだりするのに時間を使ったり、仕事が長引いて疲れたのでスキップということもありました。年間目標的にはまだ問題ないので、慌てずしっかり理解しながら進めていくつもりです。&lt;/p&gt;
+&lt;p&gt;読んだ本0! いや本は読んではいるのですが今月読み切れなかったので0になってしまいました。こちらも年間目標的には大丈夫なのですが、1冊は読み切りたいので、3月は少し本を読む時間を増やして行こうと思います。読ん(だ|でいる)本は&lt;a href="https://booklog.jp/users/ojikeii"&gt;ブクログ&lt;/a&gt;で晒しておきます。&lt;/p&gt;
+&lt;p&gt;というわけでまだまだ順調といえそうですが、LeetCodeや読書の進捗にやや翳りが見えています。習慣づいてはいるので、あとはペースを上げられるか。3月は時間の使い方がポイントになりそうです。それではまた来月。&lt;/p&gt;
+</content:encoded>
+		</item>
 		<item>
 			<title>今月の振り返り</title>
 			<link>http://ojikeii.net/posts/2021-01-31-201519</link>
