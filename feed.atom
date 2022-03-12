@@ -3,9 +3,36 @@
 	<id>http://ojikeii.net/</id>
 	<title>ojikeii's blog</title>
 	<link rel="self" href="http://ojikeii.net/" />
-	<rights>2021</rights>
-	<updated>2021-12-31T16:23:09Z</updated>
+	<rights>2022</rights>
+	<updated>2022-03-12T14:34:19Z</updated>
 	<subtitle>ojikeii's blog</subtitle>
+	<entry>
+		<id>http://ojikeii.net/posts/2022-03-12-155817</id>
+		<title>マザーボードと CPU を入れ替えたら Windows が起動しなくなった</title>
+		<link href="http://ojikeii.net/posts/2022-03-12-155817" />
+		<updated>2022-03-12T00:00:00Z</updated>
+		<content>&lt;p&gt;10年前に組んだPCをずっとそのまま使い続けてきた Ivy Bridge おじさんですが Windows 11 のハードウェア要件を満たさず流石にもう戦えないということで重い腰を上げてマザーボードとCPUの入れ替えをした。&lt;/p&gt;
+&lt;p&gt;最初は入れ替えるだけで済むかな～なんて軽い気持ちで仕事終わってご飯食べてから作業を始めた。
+余裕こいてダストブロワーでほこり払いながら換装していざ起動したら UEFI の画面がでてきた。おや？&lt;/p&gt;
+&lt;p&gt;ブートの設定みたらブートするものがないよと言っている。
+ストレージが認識されてないのかなと思ったがちゃんと認識されている。
+どういうことだろうと思ってちょっと調べてみると CSM の設定をみるとよさそうだ。
+CSM は UEFI から BIOS モードの OS を起動するためのものらしい、
+そして Windows はレガシ BIOS モードか UEFI モードかをインストール時に選択する。
+もう遠い昔のことで覚えていないが、当時 Windows 8 だったが BIOS モードでインストールしたのかもしれない。
+前のマザボにまた入れ替えて確認すれば分かるが面倒なので、CSM を Enabled にして試してみよう。&lt;/p&gt;
+&lt;p&gt;というわけで CMS の設定を見るとなんと Disabled でグレーアウトされていた。
+あれ、詰んだ？と思って調べてみると、最近の Intel 向けの UEFI は CSM は排除されているらしい。なるほど。
+再インストールなしに BIOS モードから UEFI モードに切り替えられるのか？と思って調べてみたら mbr2gpt というツールが提供されているらしい。
+というわけでいったん古いマザボに戻して BIOS モードだったかを確認し、なぜ UEFI モードでインストールしなかったのかと10年前の自分の頭をパチーンしてやりたい気持ちを抑えつつ、このツールで UEFI モードに切り替えようとした。&lt;/p&gt;
+&lt;p&gt;が、エラーが出た。エラーメッセージで調べてみて情報がやや錯綜気味だったが、最終的にはシステムパーティションとブートパーティションの間に2GBの未割当領域を作ることで無事成功した。
+ブートパーティションの後ろだとだめだったがなぜなんだろうか。GPT のための領域を用意しないといけないのはわかるが、ログには必要なのは100MB程度だとあったし、成功後に実際100MBのパーティションがブートパーティションの後ろに作られていた。そして未割当のパーティションはノータッチだ。なぜだ。2GBというのもよく分からない。分からんが掘り下げる気力はなかった。&lt;/p&gt;
+&lt;p&gt;とにかくこれで UEFI モードになったはずなのでそれを確認してから、もう一度新しいマザボに換えてから再度起動したら無事 Windows が立ち上がった。ちゃんとライセンス認証もできた。めでたしめでたし。&lt;/p&gt;
+&lt;p&gt;Alder Lake への大ジャンプアップで Core i3 だが流石に体感で分かるほど速くなった。まあ前のでも不満があるわけではなかった（なのでずるずる10年も使ってしまった）んだけど、ちゃんと移行できてよかったなって思った（小並&lt;/p&gt;
+&lt;p&gt;ちなみに Windows 11 に上げれるのかなと思って見てみたら「おめでとうございます。お使いの PC は Windows 11 の最小システム要件を満たしています。具体的なお届け時期は、準備の都合上、変動する可能性があります。」とありズコーなってしまった。まあ気長に待つか…&lt;/p&gt;
+</content>
+		<summary>&lt;p&gt;10年前に組んだPCをずっとそのまま使い続けてきた Ivy Bridge おじさんですが Windows 11 のハードウェア要件を満たさず流石にもう戦えないということで重い腰を上げてマザーボードとCPUの入れ替えをした。&lt;/p&gt;</summary>
+	</entry>
 	<entry>
 		<id>http://ojikeii.net/posts/2021-12-31-204120</id>
 		<title>2021年の振り返り</title>
@@ -1523,65 +1550,5 @@ MGCの仕組みはかなり良いと思っていて、過程の可視化明確�
 		<content>&lt;p&gt;Azure Logic Apps のチュートリアルの動作確認のためのテストです。&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Azure Logic Apps のチュートリアルの動作確認のためのテストです。&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<id>http://ojikeii.net/posts/2018-01-11-001229</id>
-		<title>IoT システム開発スタートアップを読んで手を動かしてみたときのメモ</title>
-		<link href="http://ojikeii.net/posts/2018-01-11-001229" />
-		<updated>2018-01-11T00:00:00Z</updated>
-		<content>&lt;p&gt;先月「&lt;a href="https://www.amazon.co.jp/IoT%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%83%97%E3%83%AD%E3%83%88%E3%82%BF%E3%82%A4%E3%83%97%E3%81%A7%E5%85%A8%E3%83%AC%E3%82%A4%E3%83%A4%E3%82%92%E3%81%A4%E3%81%AA%E3%81%90-%E5%90%89%E6%BE%A4-%E7%A9%82%E7%A9%8D/dp/4865940944"&gt;IoT システム開発スタートアップ-プロトタイプで全レイヤをつなぐ&lt;/a&gt;」を読んだときのメモ。&lt;/p&gt;
-&lt;h1 id="bleserial3"&gt;BLESerial3 を使う&lt;/h1&gt;
-&lt;p&gt;本では BLESerial2 を使っていたが&lt;a href="https://qiita.com/tomonari-t/items/d821fc5b4f05189828fa#bleserial2%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83"&gt;すでに生産が停止されているよう&lt;/a&gt;で手に入らなかったので BLESerial3 を使った。BLESerial2 と BLESerial3 ではマイコンとの接続方法が微妙に異なる。前者は マイコンの TX は モジュールの TX、RX は RX に接続するが、後者の場合は TX は RX、RX は TX に接続する。  なので BLESerial3 を使う場合は本の通りに接続しても期待通りに動かない。「&lt;a href="http://www.robotsfx.com/robot/BLESerial3.html"&gt;BLEモジュール　BLESerial３　の紹介&lt;/a&gt;」の「3.3V系マイコンとの接続例」を参考にした。&lt;/p&gt;
-&lt;h1 id="ble-central"&gt;ゲートウェイ（BLE Central）のプログラム&lt;/h1&gt;
-&lt;p&gt;BLESerail3 が送信したデータを Raspberry Pi 上の Windows 10 IoT で受信するためのコードを書く必要があるが、本にあるコードでは上手くいかなかった。代わりに下記のコードでとりあえず動いた。&lt;a href="https://docs.microsoft.com/en-us/windows/uwp/devices-sensors/gatt-client"&gt;UWP の Bluetooth GATT Client 用 API のドキュメント&lt;/a&gt; を参考にした。&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-csharp"&gt;private async void HookGattCharacteristicAsync()
-{
-    // 結局デバイスの名前指定して取ることにした。
-    deviceInfos = await DeviceInformation.FindAllAsync(
-        BluetoothLEDevice.GetDeviceSelectorFromDeviceName(&amp;quot;BLESerial_0&amp;quot;)
-        );
-
-    if (deviceInfos == null || deviceInfos.Count != 1) return;
-
-    BluetoothLEDevice bleDevice = await BluetoothLEDevice.FromIdAsync(deviceInfos.First().Id);
-
-    GattDeviceServicesResult gattDeviceServices = await bleDevice.GetGattServicesForUuidAsync(GattServiceGuid);
-
-    if (gattDeviceServices.Status == GattCommunicationStatus.Success)
-    {
-        gattCharacteristics = await gattDeviceServices.Services.First().GetCharacteristicsForUuidAsync(GattCharacteristicGuid);
-
-        if (this.gattCharacteristics.Status == GattCommunicationStatus.Success)
-        {
-            var gattCharacteristic = this.gattCharacteristics.Characteristics.First();
-
-            // CCCD への書き込みが必要。これがないとイベントハンドラが呼ばれない。
-            GattCommunicationStatus status
-                = await gattCharacteristic.WriteClientCharacteristicConfigurationDescriptorAsync(GattClientCharacteristicConfigurationDescriptorValue.Notify);
-
-            if (status == GattCommunicationStatus.Success)
-            {
-                gattCharacteristic.ValueChanged += GattCharacteristic_ValueChanged;
-            }
-        }
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id="bing-image-search-api-v7"&gt;Bing Image Search API v7 を使う&lt;/h1&gt;
-&lt;p&gt;害鳥検出システムの教師データ用の画像収集プログラムで Bing Image Search API v5 を使っているが、v7 があったのでそちらを使ってみた。本では検索結果の重複を避けるため、現在のオフセットに、1回のクエリで取得する最大件数と &lt;a href="https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/bing-images-api-v5-reference#nextoffsetaddcount"&gt;nextOffsetAddCount&lt;/a&gt; を加えたものを次回クエリのオフセットに指定している。&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-python"&gt;offset += BING_SKIP + result['nextOffsetAddCount'] # v5
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;v7 では nextOffsetAddCount は存在しない。代わりに &lt;a href="https://docs.microsoft.com/ja-jp/rest/api/cognitiveservices/bing-images-api-v7-reference#nextoffset"&gt;nextOffset&lt;/a&gt; の値をそのまま次回クエリのオフセットに指定する。&lt;/p&gt;
-&lt;pre&gt;&lt;code class="language-python"&gt;offset = result['nextOffset'] # v7
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id="section"&gt;必要なもの&lt;/h1&gt;
-&lt;p&gt;本の4章の始めの方に必要な部品やハードウェアのリストがあるが、そこに載ってあるもの以外に下記が必要となる。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Micro SD カード（これに Windows 10 IoT を書き込んで Raspberry Pi に挿す）&lt;/li&gt;
-&lt;li&gt;Micro SD カードの Reader/Writer（書き込む用）&lt;/li&gt;
-&lt;li&gt;A-B USB ケーブル（PC と Arduino 接続用）&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-		<summary>&lt;p&gt;先月「&lt;a href="https://www.amazon.co.jp/IoT%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%83%97%E3%83%AD%E3%83%88%E3%82%BF%E3%82%A4%E3%83%97%E3%81%A7%E5%85%A8%E3%83%AC%E3%82%A4%E3%83%A4%E3%82%92%E3%81%A4%E3%81%AA%E3%81%90-%E5%90%89%E6%BE%A4-%E7%A9%82%E7%A9%8D/dp/4865940944"&gt;IoT システム開発スタートアップ-プロトタイプで全レイヤをつなぐ&lt;/a&gt;」を読んだときのメモ。&lt;/p&gt;</summary>
 	</entry>
 </feed>
