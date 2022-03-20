@@ -1,9 +1,0 @@
-#recipe Blog
-#n Wyam.Highlight
-
-// Customize your settings and add new ones here
-Settings[Keys.Host] = "ojikeii.net";
-Settings[BlogKeys.Title] = "ojikeii's blog";
-Settings[BlogKeys.Description] = "ojikeii's blog";
-
-// Add any pipeline customizations here
