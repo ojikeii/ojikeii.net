@@ -3,3 +3,7 @@ packages.xml
 config.wyam.hash
 config.wyam.dll
 config.wyam.packages.xml
+obj/
+bin/
+temp/
+cache/
