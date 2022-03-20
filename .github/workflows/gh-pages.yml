@@ -12,8 +12,10 @@ jobs:
     - uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1.x'
-    - run: dotnet run --output ..\output
-    - run: |
+    - name: Build
+      run: dotnet run --output ..\output
+    - name: Push
+      run: |
         git config --global user.email "ojikeii@gmail.com"
         git config --global user.name "ojikeii"
         git checkout master 
