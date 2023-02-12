@@ -1,4 +1,6 @@
+ShowInNavbar: true
 Title: About Me
+Order: 101
 ---
 
 東京在住のソフトウェアエンジニア。
