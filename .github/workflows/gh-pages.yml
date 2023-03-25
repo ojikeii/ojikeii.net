@@ -22,7 +22,7 @@ jobs:
         git config --global user.name "ojikeii"
         git checkout master 
         git rm -rf .
-        git clean -df
+        git clean -ffd
         xcopy ..\output . /E
         echo ojikeii.net > CNAME
         git add -A
